@@ -35,10 +35,10 @@
         "siteLink": "https://example.com/project1"
       },
       {
-        "title": "Project 1",
-        "image": "src/img/dude.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "githubLink": "https://github.com/example/project1",
+        "title": "Calories Calculator",
+        "image": "src/img/calories.png",
+        "description": "Enjoy with the Calories Calculator",
+        "githubLink": "https://github.com/AKogman/clories.git",
         "siteLink": "https://example.com/project1"
       }
   ]

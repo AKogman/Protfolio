@@ -1,0 +1,102 @@
+// // Example: Fetch and dynamically populate project data from a JSON file
+// fetch('json/projects.json')
+//   .then(response => response.json())
+//   .then(data => {
+//     const projectsContainer = document.querySelector('#projects .container');
+//     data.forEach(project => {
+//       const card = document.createElement('div');
+//       card.classList.add('card');
+//       card.innerHTML = `
+//         <img src="${project.image}" class="card-img-top" alt="${project.title}">
+//         <div class="card-body">
+//           <h5 class="card-title">${project.title}</h5>
+//           <p class="card-text">${project.description}</p>
+//           <a href="#" class="btn btn-primary">View Details</a>
+//         </div>
+//       `;
+//       projectsContainer.appendChild(card);
+//     });
+//   })
+//   .catch(error => console.error(error));
+
+html5:
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="row" id="projectList">
+        <!-- Projects will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+js:
+// Fetch projects from JSON file
+fetch('src/json/projects.json')
+  .then(response => response.json())
+  .then(data => {
+    const projectList = document.getElementById('projectList');
+
+    data.forEach(project => {
+      const projectCard = document.createElement('div');
+      projectCard.classList.add('col-md-6');
+
+      const card = document.createElement('div');
+      card.classList.add('card');
+
+      const img = document.createElement('img');
+      img.classList.add('card-img-top');
+      img.src = project.image;
+      img.alt = project.title;
+
+      const cardBody = document.createElement('div');
+      cardBody.classList.add('card-body');
+
+      const title = document.createElement('h5');
+      title.classList.add('card-title');
+      title.textContent = project.title;
+
+      const description = document.createElement('p');
+      description.classList.add('card-text');
+      description.textContent = project.description;
+
+      cardBody.appendChild(title);
+      cardBody.appendChild(description);
+      card.appendChild(img);
+      card.appendChild(cardBody);
+      projectCard.appendChild(card);
+
+      projectList.appendChild(projectCard);
+    });
+  });
+json:
+[
+    {
+      "title": "Project 1",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 2",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 3",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 4",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 5",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 6",
+      "image": "src/img/dude.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]

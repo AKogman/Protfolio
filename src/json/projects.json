@@ -1,0 +1,45 @@
+[
+    {
+      "title": "My Protfolio ",
+      "image": "src/img/protfolio.png",
+      "description": "this is the pagee you are scroling in right now",
+      "githubLink": "https://github.com/example/project1",
+      "siteLink": "https://example.com/project1"
+    },
+    {
+      "title": "MardiGrass",
+      "image": "src/img/mardi.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "githubLink": "https://github.com/AKogman/Merdi_Gras_Festival.git",
+      "siteLink": "https://example.com/project2"
+    },
+    {
+        "title": "Mangeru",
+        "image": "src/img/manageu.png",
+        "description": "the site will help you to make a to do list.",
+        "githubLink": "https://github.com/AKogman/MangeU.git",
+        "siteLink": "https://example.com/project1"
+      },
+      {
+        "title": "Techit",
+        "image": "src/img/Techit.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "githubLink": "https://github.com/AKogman/Techit_fixed.git",
+        "siteLink": "https://example.com/project1"
+      },
+      {
+        "title": "Project 1",
+        "image": "src/img/dude.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "githubLink": "https://github.com/example/project1",
+        "siteLink": "https://example.com/project1"
+      },
+      {
+        "title": "Project 1",
+        "image": "src/img/dude.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "githubLink": "https://github.com/example/project1",
+        "siteLink": "https://example.com/project1"
+      }
+  ]
+  

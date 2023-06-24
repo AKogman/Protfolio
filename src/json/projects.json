@@ -3,13 +3,13 @@
       "title": "My Protfolio ",
       "image": "src/img/protfolio.png",
       "description": "this is the pagee you are scroling in right now",
-      "githubLink": "https://github.com/example/project1",
+      "githubLink": "https://github.com/AKogman/Protfolio.git",
       "siteLink": "https://example.com/project1"
     },
     {
       "title": "MardiGrass",
       "image": "src/img/mardi.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Festival Project site",
       "githubLink": "https://github.com/AKogman/Merdi_Gras_Festival.git",
       "siteLink": "https://example.com/project2"
     },
@@ -23,15 +23,15 @@
       {
         "title": "Techit",
         "image": "src/img/Techit.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "description": "A module of a pc shop",
         "githubLink": "https://github.com/AKogman/Techit_fixed.git",
         "siteLink": "https://example.com/project1"
       },
       {
-        "title": "Project 1",
-        "image": "src/img/dude.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "githubLink": "https://github.com/example/project1",
+        "title": "TikTacToe",
+        "image": "src/img/tiktactoe.png",
+        "description": "good old game of TikTacToe 1v1 or 1vComputer",
+        "githubLink": "https://github.com/AKogman/tictaktoe.git",
         "siteLink": "https://example.com/project1"
       },
       {
